@@ -1,0 +1,37 @@
+ <html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/style1.css">
+     <title>login</title>
+ </head>
+ <body>
+     <div class="container">
+         <div class="row d-flex justify-content-center">
+             <div class="inputForm w-75 m-lg-5 m-md-3 m-sm-2 p-lg-5 text-center ">
+                 <h1 class="text-info m-sm-2">Smart Login System</h1>
+                 <div class="form-group text-white">
+                     <input type="email" name="email" id="logemail" class="form-control text-white" placeholder="Enter your email">
+                     <div id="emailAlert" class="alert alert-danger  my-lg-2 d-none ">The Email is Invalid</div>
+                 </div>
+                 <div class="form-group">
+                     <input type="password" name="password" id="logpass" class="form-control" placeholder="Enter your password">
+                     <div id="passAlert" class="alert alert-danger my-lg-2 d-none ">The password is Invalid</div>
+                 </div>
+                 <div class="form-group">
+                     <div class="alert text-danger pt-lg-3  d-none" id="checkInput">The Email or Password is Invalid</div>
+                     <a id="logInButton" class="btn btn-outline-info w-100 btn-block mt-4">login</a>
+                 </div>
+                 <h6 class="text-white">Don’t have an account? <span><a href="signup.html">Sign Up</a></span> </h6>
+             </div>
+         </div>
+     </div>
+ 
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/login.js"></script>
+ </body>
+ </html>
